@@ -1,0 +1,39 @@
+/* Apply styles as needed */
+.donation-page {
+    padding: 20px;
+}
+.donation-table{
+    margin-bottom: 20px;
+
+}
+.send-request-button {
+    margin-left: 10px; /* Adjust spacing as needed. */
+    padding: 8px 15px; /* Adjust padding for desired button size. */
+    border: 1px solid #ddd; /* Match border style with table cells. */
+    background-color: burlywood; /* Adjust background color. */
+    font-size: 16px; /* Adjust font size as needed. */
+    cursor: pointer;
+  }
+  
+.donor-info {
+    margin-bottom: 20px;
+}
+
+.donation-table {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}

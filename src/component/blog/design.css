@@ -1,0 +1,66 @@
+/* design.css */
+
+.content {
+  display: grid;
+  gap: 2rem; /* Increase the gap between cards */
+}
+
+.grid2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.box {
+  width: 100%;
+  max-width: 500px; /* Adjust the maximum width of the card as needed */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.text {
+  padding: 1rem;
+}
+
+.category {
+  display: flex;
+  align-items: center;
+}
+
+.category i {
+  color: red; /* Change the color as needed */
+  margin-right: 0.5rem;
+}
+
+h4 {
+  margin-top: 0.5rem;
+}
+
+.button {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #f8f9fa; /* Change the background color as needed */
+}
+
+.btn-read-more {
+  background-color: burlywood; /* Green color */
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-read-more:hover {
+  background-color: grey; /* Darker green on hover */
+}
+.blog-out-mb{
+  background-color: whitesmoke;
+}

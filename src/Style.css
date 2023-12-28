@@ -1,0 +1,36 @@
+/* Add these styles to your existing CSS */
+
+/* Navigation links */
+.header nav a {
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 0 15px;
+  padding-bottom: 5px;
+  transition: color 0.3s, padding-bottom 0.3s;
+}
+
+/* Default styles for links */
+.header nav a:hover {
+  color: #000;
+  padding-bottom: 10px; /* Increase the padding to create an underline effect */
+}
+
+/* Underline animation from left to right */
+.header nav a::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.header nav a:hover::before {
+  visibility: visible;
+  width: 100%;
+}
